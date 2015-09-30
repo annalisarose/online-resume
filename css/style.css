@@ -1,0 +1,57 @@
+html{
+	background-color: #d3d3d3;
+}
+
+body {
+	font-family: times;
+	font-size: 14px;
+	background-color: #f6f6f6;
+	margin:30px;
+	padding: 50px;
+}
+
+h1, h2{
+	text-transform: uppercase;
+}
+h1, nav{
+	font-family: helvetica;
+	text-align: center;
+}
+
+h2{
+	font-family: helvetica;
+	font-size: 14px;
+	text-align: left;
+}
+
+nav{
+	font-weight:bold;
+	font-style: underline;
+	text-align: center;
+}
+
+a{
+	color:black;
+}
+
+nav, h1{
+	text-align: center;
+}
+
+img{
+	max-height: 150px;
+	max-width: auto;
+	text-align: right;
+    float: right;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 0px 0px 15px 20px;
+}
+
+#page-wrap {
+     width: 600px;
+     margin: 0 auto;
+     border-top: black solid 3px;
+	 border-bottom: black solid 3px;
+	 padding: 50px
+}
