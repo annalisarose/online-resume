@@ -8,6 +8,7 @@ body {
 	background-color: #f6f6f6;
 	margin:30px;
 	padding: 50px;
+	max-width: 600px;
 }
 
 h1, h2{
@@ -49,9 +50,11 @@ img{
 }
 
 #page-wrap {
+	position: center;
      width: 600px;
      margin: 0 auto;
-     border-top: black solid 3px;
-	 border-bottom: black solid 3px;
-	 padding: 50px
+	 padding-top:50px;
+	 padding-bottom:50px;
+	 border-top: black solid 3px;
+	border-bottom: black solid 3px;
 }
