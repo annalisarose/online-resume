@@ -1,17 +1,15 @@
-html{
-	background-color: #d3d3d3;
-}
 
 body {
+	max-width: 600px;
+	max-height: auto;
 	font-family: times;
 	font-size: 14px;
 	background-color: #f6f6f6;
 	margin:30px;
 	padding: 50px;
-	max-width: 600px;
 }
 
-h1, h2{
+h1, h3{
 	text-transform: uppercase;
 }
 h1, nav{
@@ -21,8 +19,13 @@ h1, nav{
 
 h2{
 	font-family: helvetica;
-	font-size: 14px;
+	font-size: 18x;
 	text-align: left;
+}
+
+h3{
+	font-family: helvetica;
+	font-size: 14px;
 }
 
 nav{
@@ -50,11 +53,9 @@ img{
 }
 
 #page-wrap {
-	position: center;
      width: 600px;
      margin: 0 auto;
-	 padding-top:50px;
-	 padding-bottom:50px;
-	 border-top: black solid 3px;
-	border-bottom: black solid 3px;
+     border-top: black solid 3px;
+	 border-bottom: black solid 3px;
+	 padding: 50px
 }
